@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FD5D21</color>
+    <color name="colorAccent">#fd8821</color>
+    <color name="shadow">#c4000000</color>
+
+    <color name="font_hotel">#fd8821</color>
+</resources>

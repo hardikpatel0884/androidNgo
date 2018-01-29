@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:gravity="center_vertical"
+    android:background="#8d414141"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv_header_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_close"
+        android:tint="@android:color/white"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/tv_top_hotel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:text="Name of Restaurant"/>
+
+    <CheckBox
+        android:id="@+id/iv_header_favorite"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:tint="@android:color/white"
+        android:button="@drawable/btn_favoraite"
+        android:buttonTint="@android:color/white"/>
+
+</RelativeLayout>
