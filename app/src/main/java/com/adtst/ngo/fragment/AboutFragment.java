@@ -62,6 +62,8 @@ public class AboutFragment extends Fragment implements OnMapReadyCallback {
                     LatLng userLocation = new LatLng(tracker.getLatitude(), tracker.getLongitude());
                     mMap.addMarker(new MarkerOptions().position(userLocation).title("You"));
 
+                    mMap.getUiSettings().setZoomGesturesEnabled(false);
+                    mMap.getUiSettings().setScrollGesturesEnabled(false);
                     // hotel location
                     LatLng latlngHotel = new LatLng(Double.parseDouble(objHotel.getString("lat")), Double.parseDouble(objHotel.getString("lng")));
                     mMap.addMarker(new MarkerOptions().position(latlngHotel).title(objHotel.getString("hotel_name")));

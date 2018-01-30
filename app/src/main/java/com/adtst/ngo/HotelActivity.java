@@ -59,7 +59,7 @@ public class HotelActivity extends AppCompatActivity implements LocationListener
             ivFavorite = findViewById(R.id.iv_header_favorite);
             vpMenu = findViewById(R.id.vp_hotel_menu_main);
             tlMenu = findViewById(R.id.tl_hotel_main_menu);
-            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
             tracker = new GPSTracker(HotelActivity.this);
             Intent hotel = getIntent();
             String strHotel = hotel.getStringExtra("hotel");
